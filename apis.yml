@@ -1,7 +1,12 @@
 aid: sioma
 name: Sioma
-description: Sioma is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: SIOMA is a Colombian precision-agriculture (agtech) software platform for tropical
+  crops such as oil palm, banana, and cacao. It helps plantations monitor field labor, track
+  harvest and weighing (pesaje) operations with GPS, and make data-driven decisions to raise
+  productivity. The product combines a mobile field-management app, GPS-based labor tracking,
+  smart weighing hardware (Nukak, Sigma, Jaco, and Bascula-G scales), and Siomi, an AI assistant
+  for agriculture. SIOMA is delivered as a customer web and mobile application and is backed by
+  500 Global. No public API or developer program is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/sioma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,h=756,fit=crop,f=jpeg/m5KKe08bEgiJOZb4/img-dJoonJjZNGCM9Dza.png
 tags:
 - Company
+- Agriculture
+- AgTech
+- Precision Agriculture
+- Farm Management
+- IoT
+- Banana
+- Oil Palm
+- Colombia
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +48,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://sioma.store
+  url: https://www.sioma.store
+- type: Blog
+  url: https://www.sioma.store/blog-agricola
+- type: Support
+  url: https://www.sioma.store/contacto
+- type: Login
+  url: https://sioma.app/user/login.php
+- type: PrivacyPolicy
+  url: https://www.sioma.store/privacy-policy
+- type: TermsOfService
+  url: https://www.sioma.store/terms-and-conditions
+- type: DomainSecurity
+  url: security/sioma-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

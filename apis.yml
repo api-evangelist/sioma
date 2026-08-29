@@ -8,6 +8,9 @@ description: SIOMA is a Colombian precision-agriculture (agtech) software platfo
   for agriculture. SIOMA is delivered as a customer web and mobile application and is backed by
   500 Global. No public API or developer program is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/sioma/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API or developer program is currently published."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
